@@ -3,6 +3,7 @@ table {
   width: 100%;
 }
 table td {
+  font-size: 20px;
   vertical-align: bottom;
   height: 30px;
 }
@@ -15,13 +16,21 @@ table td {
 /* classes */
 .viewLabel {
   font-family: Arial, sans-serif;
-  font-size: 20px;
   padding-left: 5px;
 }
 
 .formInput {
   font-family: monospace;
-  font-size: 20px;
   border-bottom: 2px solid black;
   text-align: center;
+}
+
+.shortTable {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.shortTable td {
+  font-size: 15px;
+  vertical-align: bottom;
+  height: 0px;
 }
