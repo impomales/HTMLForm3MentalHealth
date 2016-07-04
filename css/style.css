@@ -8,6 +8,10 @@ table td {
   height: 30px;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* ids */
 #clientInfo {
   margin-top: 50px;
@@ -25,6 +29,24 @@ table td {
   text-align: center;
 }
 
+.formInputDrug {
+  font-family: monospace;
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.formInputDrugCell {
+  font-family: monospace;
+  border-bottom: 2px solid black;
+  margin-right: 20px;
+  float: right;
+  text-align: center;
+  font-weight: normal;
+  height: 20px;
+  width: 60%;
+}
+
 .shortTable {
   margin-bottom: 10px;
   width: 100%;
@@ -32,5 +54,19 @@ table td {
 .shortTable td {
   font-size: 15px;
   vertical-align: bottom;
-  height: 0px;
+  height: 10px;
+}
+
+.drugTable {
+  text-align: center;
+  font-weight: bold;
+}
+.drugTable td {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  border: 2px solid black;
+}
+.drugTable .side {
+  text-align: left;
 }
